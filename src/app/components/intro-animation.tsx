@@ -61,13 +61,13 @@ export const IntroAnimation = ({ onComplete }: { onComplete: () => void }) => {
       }
     }
 
-    const colors = ['#7C4DFF', '#A288FF', '#FFFFFF', '#4D2BBE'];
+    const colors = ['#7C4DFF', '#A288FF', '#FFFFFF'];
     
     const createFirework = () => {
       const x = Math.random() * canvas.width;
       const y = Math.random() * canvas.height;
       const color = colors[Math.floor(Math.random() * colors.length)];
-      for (let i = 0; i < 40; i++) {
+      for (let i = 0; i < 25; i++) {
         particles.push(new Particle(x, y, color));
       }
     };
