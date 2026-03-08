@@ -10,7 +10,7 @@ const projects = [
   {
     id: 1,
     title: "Lucky And Power",
-    category: "Web App",
+    category: "Web",
     image: "/images/1.png",
     tags: ["React", "Tailwind", "Mysql", "Laravel"],
     desc: "A high-performance financial analytics dashboard with real-time data streaming and futuristic visualizations.",
@@ -19,13 +19,13 @@ const projects = [
   },
   {
     id: 2,
-    title: "Neon Nexus Marketplace",
-    category: "E-Commerce",
-    image: "/images/2.jpg",
-    tags: ["Next.js", "Stripe", "Prisma"],
+    title: "Simple Discussion Forum App",
+    category: "App",
+    image: "/images/2.png",
+    tags: ["React", "Firebase"],
     desc: "Cutting-edge NFT marketplace with smooth 3D interactions and seamless blockchain integration.",
-    liveUrl: "#",
-    githubUrl: "https://github.com/username/project-2",
+    liveUrl: "https://simple-discussion-forum-app-6ys2-p18vq5a4s.vercel.app/",
+    githubUrl: "https://github.com/lingdcf12-hue/Simple-Discussion-Forum-App.git",
   },
   {
     id: 3,
